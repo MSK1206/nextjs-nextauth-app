@@ -10,9 +10,6 @@ export default function Form({ user }: Props) {
     <form className="card-body">
       <div>
         <p className="head text-center">Login User</p>
-        <picture>
-          <source srcSet={`${user?.image}`} />
-        </picture>
         <h5 className="card-title">{user?.name}</h5>
         <h5 className="card-title">{user?.email}</h5>
       </div>

@@ -1,4 +1,4 @@
-<a href="#">
+<a href="https://nextjs-nextauth-app.vercel.app/">
   <h1 align="center">nextjs-nextauth-app</h1>
 </a>
 
@@ -11,12 +11,12 @@
     <img src="https://img.shields.io/twitter/follow/:Msk_init" alt="Msk_init Twitter follow" />
   </a>
   <a href="https://github.com/MSK1206/nextjs-nextauth-app">
-    <img src="https://img.shields.io/github/stars/MSK1206/nextjs-nextauth-app?label=MSK1206%2Fnextjs-prisma-auth-postgres-app" alt="nextjs-nextauth-app repo star count" />
+    <img src="https://img.shields.io/github/stars/MSK1206/nextjs-nextauth-app?label=MSK1206%2Fnextjs-nextauth-app" alt="nextjs-nextauth-app repo star count" />
   </a>
 </p>
 
 ### 概要
 
-----
+---
 
 - Next.js 13 + NextAuthでOAuth認証をするチュートリアルになります

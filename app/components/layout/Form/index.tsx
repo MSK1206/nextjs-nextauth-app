@@ -7,7 +7,7 @@ type Props = {
 
 export default function Form({ user }: Props) {
   return (
-    <form className="card-body">
+    <div className="card-body">
       <div className="flex flex-col items-center justify-center">
         <h5 className="">ログイン情報</h5>
         <div className="divider text-xs"></div>
@@ -30,6 +30,6 @@ export default function Form({ user }: Props) {
         <h5 className="text-[12px] w-[4em] tracking-widest">Mail:</h5>
         <span className="text-[12px]">{user?.email}</span>
       </div>
-    </form>
+    </div>
   );
 }

@@ -3,8 +3,11 @@ import Form from '@/app/components/layout/Form';
 import { signIn, signOut, useSession } from 'next-auth/react';
 
 export default function SignIn() {
-  const { data: session, status} = useSession();
-  if (status === "authenticated") {
+  const { data: session, status } = useSession();
+  {
+    /* status: "authenticated" | "loading" | "unauthenticated" */
+  }
+  if (status === 'authenticated') {
     return (
       <>
         <Form user={session?.user} />

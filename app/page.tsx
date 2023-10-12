@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import SignIn from './components/SignIn';
-
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -21,6 +21,16 @@ export default function Home() {
             </div>
           </form>
         </div>
+        <ul className="menu bg-base-200 w-56 rounded-box">
+          <li>
+            <Link
+              href={'/protect'}
+              className="bg-clip-text hover:text-transparent bg-gradient-to-r from-pink-500 to-violet-500"
+            >
+              認証後に見れるページ
+            </Link>
+          </li>
+        </ul>
       </div>
     </main>
   );

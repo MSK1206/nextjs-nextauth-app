@@ -21,16 +21,14 @@ export default function Home() {
             </div>
           </form>
         </div>
-        <ul className="menu bg-base-200 w-56 rounded-box">
-          <li>
-            <Link
-              href={'/protect'}
-              className="bg-clip-text hover:text-transparent bg-gradient-to-r from-pink-500 to-violet-500"
-            >
-              認証後に見れるページ
-            </Link>
-          </li>
-        </ul>
+        <div className='btn btn-base-100 border border-slate-400 rounded-lg p-1 w-[250px] hover:text-transparent hover:bg-white'>
+          <Link
+            href={'/protect'}
+            className="bg-clip-text hover:text-transparent bg-gradient-to-r from-pink-500 to-violet-500"
+          >
+            認証後に見れるページ
+          </Link>
+        </div>
       </div>
     </main>
   );

@@ -3,7 +3,7 @@ import { signOut } from 'next-auth/react';
 
 export default function page() {
   return (
-    <div className="min-h-screen flex items-center justify-center">
+    <div className="min-h-screen flex flex-col items-center justify-center">
       <h1>認証後だけしか見れないページ</h1>
       <button
         type="button"

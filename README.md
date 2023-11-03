@@ -15,16 +15,24 @@
   </a>
 </p>
 
+<br />
+
 ## 概要
 
 nextjs-nextauth-app は、Next.js を使用した認証付きのウェブアプリケーションのベースとして構築されたプロジェクトです。このプロジェクトでは、NextAuth を使用して簡単に認証を統合できます。
+
+<br />
 
 ## Features
 
 This project uses several key packages and libraries. Here's a detailed overview of each:
 
+<br />
+
 - #### **Next.js（公式リンク： [Next.js](https://nextjs.org/)**： 
 > Next.jsは、Webアプリケーションを構築するための人気のReactフレームワークです。サーバーサイド・レンダリング、ルーティング、その他の機能を備えています。
+
+<br />
 
 - #### **NextAuth（公式リンク： [NextAuth.js](https://next-auth.js.org/)**： 
 > NextAuthは、Next.jsアプリケーションのための認証ライブラリです。認証プロバイダの統合を簡略化し、柔軟な認証システムを提供します。
@@ -58,6 +66,7 @@ This project uses several key packages and libraries. Here's a detailed overview
 - #### **prettier（公式リンク： [Prettier](https://prettier.io/))**： 
 > Prettierは、一貫したスタイルになるようにコードを自動的に整形する、意見を反映したコード整形ツールです。きれいで一貫性のあるコードベースを維持するためによく使われます。
 
+<br />
 
 ## File Composition
 
@@ -74,8 +83,7 @@ This project uses several key packages and libraries. Here's a detailed overview
 - `Protect.tsx`: 認証後にアクセスできるページのコンポーネント。
 - `middleware.ts`: 認証関連のミドルウェアと設定を含むファイル。
 
-
-
+<br />
 
 ## インストールと実行
 
@@ -101,7 +109,7 @@ This project uses several key packages and libraries. Here's a detailed overview
 
 4. ブラウザで [http://localhost:3000](http://localhost:3000) にアクセスして、プロジェクトを確認します。
 
-
+<br />
 
 ## ライセンス
 
